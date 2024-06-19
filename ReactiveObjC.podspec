@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.resource_bundles = { 'ReactiveObjC' => ['ReactiveObjC/PrivacyInfo.xcprivacy'] }
+  s.resource_bundles = { 'ReactiveObjC' => ['PrivacyInfo.xcprivacy'] }
 
   s.frameworks   = "Foundation"
 
